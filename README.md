@@ -83,10 +83,10 @@ See the [Test filtering](https://docs.gradle.org/current/userguide/java_testing.
 ## Debugging
 
 You can debug the source code, add breakpoints, inspect variables and view the application's call stack.
-Also, you can use the IDE for debugging the source code, unit, integration and smoke tests.
-These functionalities are provided natively or using **Spring Boot DevTools**.
-
+Also, you can use the IDE for debugging the source code, unit and integration tests.
 You can customize the [log verbosity](https://docs.gradle.org/current/userguide/logging.html#logging) of gradle tasks using the `-i` or `--info` flag.
+
+This project includes [Swagger](https://swagger.io/). To get a visual representation of the interface and send requests for testing purposes go to <http://localhost:8080/swagger-ui.html>.
 
 ## Reference Documentation
 
